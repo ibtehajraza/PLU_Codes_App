@@ -7,9 +7,9 @@ class PLU {
   final String imageUrl;
 
   PLU({
-    this.id,
-    this.name,
-    this.pluCode,
-    this.imageUrl
+    required this.id,
+    required this.name,
+    required this.pluCode,
+    required this.imageUrl
   });
 }
